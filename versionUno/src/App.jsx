@@ -1,6 +1,6 @@
 
 import './App.css'
-import Home from './components/home'
+import Home from './components/home/Home'
 import Layout from './components/Layout'
 import NoPage from './components/NoPage'
 import Accounts from './components/Accounts'
