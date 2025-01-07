@@ -44,7 +44,7 @@ function Accounts() {
     fetch("https://2jn4t45vda.execute-api.sa-east-1.amazonaws.com/accounts", {
       method: "POST",
       headers: {
-        "Content-Type": "Accountlication/json",
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(datos),
     })
