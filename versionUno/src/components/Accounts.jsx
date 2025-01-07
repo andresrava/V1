@@ -13,6 +13,7 @@ function Accounts() {
   // Estados para los valores temporales de los inputs
   const [nuevoIntegrante, setNuevoIntegrante] = useState("");
   const [nuevaAccion, setNuevaAccion] = useState("");
+  const [nuevaKey, setNuevaKey] = useState("");
 
   // Función para agregar un nuevo integrante
   const agregarIntegrante = () => {
@@ -51,6 +52,7 @@ function Accounts() {
       .then((response) => response.json())
       .then((data) => {
         console.log("Respuesta de la API:", data);
+
       })
       .catch((error) => {
         console.error("Error al enviar los datos:", error);
